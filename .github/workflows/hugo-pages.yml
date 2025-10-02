@@ -1,0 +1,91 @@
+name: Deploy website to GitHub Pages
+
+env:
+  WC_HUGO_VERSION: '0.150.1'   # If build fails with theme errors, try '0.91.2'
+  NODE_VERSION: '20'
+
+on:
+  push:
+    branches: ['master']       # you're using master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0       # keeps commit history for .GitInfo
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Setup pnpm (if JS deps present)
+        if: hashFiles('package.json') != ''
+        uses: pnpm/action-setup@v4
+
+      - name: Install JS deps (if any)
+        if: hashFiles('package.json') != ''
+        run: pnpm install || npm install
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.WC_HUGO_VERSION }}
+          extended: true
+
+      # Cache Hugo modules & resources
+      - uses: actions/cache@v4
+        with:
+          path: |
+            /tmp/hugo_cache_runner/
+            resources/
+            $HOME/.cache/hugo/modules/
+          key: ${{ runner.os }}-hugo-${{ hashFiles('**/go.mod', '**/go.sum', 'assets/**/*', 'config/**/*', 'hugo.yaml', 'hugo.toml', 'package.json') }}
+
+      - name: Prepare Hugo modules
+        run: |
+          hugo mod tidy
+          # hugo mod vendor  # (optional) vendor modules into /modules
+
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build
+        env:
+          HUGO_ENVIRONMENT: production
+        run: |
+          echo "Hugo Cache Dir: $(hugo config | grep cachedir || true)"
+          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
