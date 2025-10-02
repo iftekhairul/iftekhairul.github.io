@@ -68,6 +68,7 @@ where I can contribute my expertise in building scalable machine learning soluti
 applications.
 </p>
 
+{{< rawhtml >}}
 <h3 id="news">Recent News</h3>
 
 <section id="news" class="section">
@@ -77,13 +78,12 @@ applications.
     <li><span style="color:blue">2024-12-10</span> Presented <b>DyGCL: Dynamic Graph Contrastive Learning</b> at <a target="_blank" href="https://bigdataieee.org/BigData2024/">IEEE Big Data 2024</a>.</li>
     <li><span style="color:blue">2024-08-09</span> Paper accepted at <a target="_blank" href="https://dsaa2024.dsaa.com">DSAA 2024</a>.</li>
     <li><span style="color:blue">2024-07-15</span> Paper accepted at <a target="_blank" href="https://ecmlpkdd.org/2024/">ECML-PKDD 2024</a> on truss-based graph sparsification for GNNs.</li>
-
-    <li><span style="color:blue">2024-06-11</span> Paper published in <a target="_blank" href="https://www.computer.org/csdl/journal/tb/">IEEE/ACM Transactions on Computational Biology and Bioinformatics</a> (DDI prediction with HIN meta-paths).</li>
+    <li><span style="color:blue">2024-06-11</span> Paper published in <a target="_blank" href="https://www.computer.org/csdl/journal/tb/">IEEE/ACM Transactions on Computational Biology and Bioinformatics</a>.</li>
     <li><span style="color:blue">2024-05-26</span> Began mentoring for <a target="_blank" href="https://sites.google.com/view/reu-gda-gsu/home">NSF REU on Graph Data Analytics</a> at GSU.</li>
     <li><span style="color:blue">2024-05-05</span> Paper accepted at <a target="_blank" href="https://icccn.org/">ICCCN 2024</a> (Similarity-based Graph Compression for Efficient Embedding).</li>
     <li><span style="color:blue">2023-11-13</span> Successfully defended Ph.D. dissertation at Georgia State University.</li>
-    <li><span style="color:blue">2023-08-05</span> Paper accepted at <a target="_blank" href="https://cikm2023.org/">CIKM 2023</a> (Seq-HyGAN: Sequence Classification via Hypergraph Attention).</li>
-    <li><span style="color:blue">2023-07-24</span> Paper accepted at <a target="_blank" href="https://acm-bcb.org">ACM BCB 2023</a> (DDI via Heterogeneous Graph Attention).</li>
+    <li><span style="color:blue">2023-08-05</span> Paper accepted at <a target="_blank" href="https://cikm2023.org/">CIKM 2023</a> (Seq-HyGAN).</li>
+    <li><span style="color:blue">2023-07-24</span> Paper accepted at <a target="_blank" href="https://acm-bcb.org">ACM BCB 2023</a> (Heterogeneous Graph Attention for DDI).</li>
     <li><span style="color:blue">2023-06-21</span> Selected for the <a target="_blank" href="https://kdd.org/kdd2023/phd-consortium/">KDD 2023 PhD Consortium</a>.</li>
     <li><span style="color:blue">2023-05-01</span> Paper accepted at <a target="_blank" href="https://pakdd2023.org/">PAKDD 2023</a> (MPool: Motif-based Graph Pooling).</li>
     <li><span style="color:blue">2022-11-09</span> Paper accepted at <a target="_blank" href="https://icde2023.ics.uci.edu/">ICDE 2023 Workshops</a> (Enhanced De-densification for Graph Compressing & Embedding).</li>
@@ -91,9 +91,9 @@ applications.
     <li><span style="color:blue">2022-07-11</span> Paper accepted at <a target="_blank" href="https://biokdd.org/biokdd22/">BioKDD 2022 Workshop</a>.</li>
     <li><span style="color:blue">2022-06-20</span> Attended <a target="_blank" href="https://www.logml.ai">LOGML Summer School 2022</a>.</li>
     <li><span style="color:blue">2022-06-17</span> Gave a talk at REU Professional Development Workshop on Graph Representation Learning in Biology & Medicine.</li>
-    <li><span style="color:blue">2021-11-14</span> Paper accepted at <a target="_blank" href="https://bigdataieee.org/">IEEE Big Data 2021</a> (Drug Abuse Detection on Twitter).</li>
-    <li><span style="color:blue">2021-07-15</span> Paper accepted at <a target="_blank" href="https://cibcb2021.ieee-cis.org/">IEEE CIBCB 2021</a> (DDI via Meta-path Similarities).</li>
-    <li><span style="color:blue">2021-06-01</span> Journal article published in <a target="_blank" href="https://www.frontiersin.org/journals/big-data">Frontiers in Big Data</a> (Proximity-based Network Compression & Embedding).</li>
+    <li><span style="color:blue">2021-11-14</span> Paper accepted at <a target="_blank" href="https://bigdataieee.org/">IEEE Big Data 2021</a>.</li>
+    <li><span style="color:blue">2021-07-15</span> Paper accepted at <a target="_blank" href="https://cibcb2021.ieee-cis.org/">IEEE CIBCB 2021</a>.</li>
+    <li><span style="color:blue">2021-06-01</span> Journal paper published in <a target="_blank" href="https://www.frontiersin.org/journals/big-data">Frontiers in Big Data</a>.</li>
     <li><span style="color:blue">2019-08-19</span> Started Ph.D. in Computer Science at Oklahoma State University.</li>
   </ul>
 
@@ -121,3 +121,4 @@ applications.
     }
   }
 </script>
+{{< /rawhtml >}}
