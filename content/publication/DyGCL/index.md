@@ -1,12 +1,12 @@
 ---
-title: "Drug-Drug Interaction Prediction: a Purely SMILES Based Approach"
+title: "MPool: Motif-Based Graph Pooling"
 authors:
   - Muhammad Ifte Khairul Islam
   - Max Khanov
   - Esra Akbas
-doi: 10.1109/BigData52589.2021.9671766
+doi: https://doi.org/10.1007/978-3-031-33377-4_9
 author_notes: []
-publication_short: "In IEEE Big Data 2021"
+publication_short: "In PAKDD 2023"
 abstract: ""
 tags: []
 projects: []
