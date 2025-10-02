@@ -68,90 +68,56 @@ where I can contribute my expertise in building scalable machine learning soluti
 applications.
 </p>
 
-<h3 id="news">News</h3>
+<h3 id="news">Recent News</h3>
 
-<ul>
-  <li><span style="color:blue">2025-06-15</span> Completed my PhD in Computer Science at Georgia State University.</li>
-  <li><span style="color:blue">2025-05-15</span> Paper accepted at <a target="_blank" href="https://link.springer.com">Springer ISBM 2024 Proceedings</a> (Context-Sensitive Approach to Autocorrect Bangla Spelling).</li>
-  <li><span style="color:blue">2024-12-10</span> Presented <b>DyGCL: Dynamic Graph Contrastive Learning</b> at <a target="_blank" href="https://bigdataieee.org/BigData2024/">IEEE Big Data 2024</a>.</li>
-  <li><span style="color:blue">2024-08-09</span> Paper accepted at <a target="_blank" href="https://dsaa2024.dsaa.com">DSAA 2024</a>.</li>
-  <li><span style="color:blue">2024-07-15</span> Paper accepted at <a target="_blank" href="https://ecmlpkdd.org/2024/">ECML-PKDD 2024</a>.</li>
-  <li><span style="color:blue">2024-06-11</span> Paper published in <a target="_blank" href="https://www.computer.org/csdl/journal/tb/">IEEE/ACM TCBB</a>.</li>
-  <li><span style="color:blue">2024-05-26</span> Started mentoring for <a target="_blank" href="https://sites.google.com/view/reu-gda-gsu/home">NSF REU on Graph Data Analytics</a> at GSU.</li>
-  <li><span style="color:blue">2024-05-05</span> Paper accepted at <a target="_blank" href="https://icccn.org/">ICCCN 2024</a>.</li>
-  <li><span style="color:blue">2023-11-13</span> Dissertation defense completed — officially a PhD!</li>
-  <li><span style="color:blue">2023-08-05</span> Paper accepted at <a target="_blank" href="https://cikm2023.org/">CIKM 2023</a>.</li>
-  <li><span style="color:blue">2023-08-01</span> Joined Georgia State University as Lecturer in the Department of Computer Science.</li>
-  <li><span style="color:blue">2023-07-24</span> Paper accepted at <a target="_blank" href="https://acm-bcb.org">ACM BCB 2023</a>.</li>
-  <li><span style="color:blue">2023-06-21</span> Selected for <a target="_blank" href="https://kdd.org/kdd2023/phd-consortium/">KDD 2023 PhD Consortium</a>.</li>
-  <li><span style="color:blue">2023-05-17</span> Passed Dissertation Proposal Exam — officially a PhD Candidate.</li>
-  <li><span style="color:blue">2023-05-01</span> Paper accepted at <a target="_blank" href="https://pakdd2023.org/">PAKDD 2023</a>.</li>
-  <li><span style="color:blue">2022-11-09</span> Paper accepted at <a target="_blank" href="https://icde2023.ics.uci.edu/">ICDE 2023</a>.</li>
-  <li><span style="color:blue">2022-09-23</span> Received <a target="_blank" href="https://cas.okstate.edu/department_of_computer_science/students/student_awards/awardees.html">Outstanding Graduate Research Award</a> from Oklahoma State University.</li>
-  <li><span style="color:blue">2022-07-11</span> Paper accepted at <a target="_blank" href="https://biokdd.org/biokdd22/">BioKDD 2022</a>.</li>
-  <li><span style="color:blue">2022-06-20</span> Attended <a target="_blank" href="https://www.logml.ai">LOGML Summer School 2022</a>.</li>
-  <li><span style="color:blue">2022-06-17</span> Gave a talk at REU Professional Development Workshop on Graph Representation Learning in Biology & Medicine.</li>
-  <li><span style="color:blue">2021-11-14</span> Paper accepted at <a target="_blank" href="https://bigdataieee.org/">IEEE Big Data 2021</a>.</li>
-  <li><span style="color:blue">2021-07-15</span> Paper accepted at <a target="_blank" href="https://cibcb2021.ieee-cis.org/">IEEE CIBCB 2021</a>.</li>
-  <li><span style="color:blue">2021-06-01</span> Journal paper published in <a target="_blank" href="https://www.frontiersin.org/journals/big-data">Frontiers in Big Data</a>.</li>
-  <li><span style="color:blue">2019-08-19</span> Started PhD in Computer Science at Oklahoma State University.</li>
-</ul>
+<section id="news" class="section">
+  <ul id="news-list">
+    <li><span style="color:blue">2025-06-15</span> Completed Ph.D. in Computer Science at Georgia State University. Dissertation: <i>“Mining Local and Global Structure on Static and Dynamic Graphs.”</i></li>
+    <li><span style="color:blue">2025-05-15</span> Paper accepted in <a target="_blank" href="https://link.springer.com">Springer ISBM 2024 Proceedings</a> — Context-Sensitive Autocorrect for Bangla Spelling.</li>
+    <li><span style="color:blue">2024-12-10</span> Presented <b>DyGCL: Dynamic Graph Contrastive Learning</b> at <a target="_blank" href="https://bigdataieee.org/BigData2024/">IEEE Big Data 2024</a>.</li>
+    <li><span style="color:blue">2024-08-09</span> Paper accepted at <a target="_blank" href="https://dsaa2024.dsaa.com">DSAA 2024</a>.</li>
+    <li><span style="color:blue">2024-07-15</span> Paper accepted at <a target="_blank" href="https://ecmlpkdd.org/2024/">ECML-PKDD 2024</a> on truss-based graph sparsification for GNNs.</li>
 
-<li>
-<span style="color:blue">2022-07-11</span>
-One research paper accepted at KDD workshop <a target="_blank" href="https://biokdd.org/biokdd22/">BioKDD 2022</a>.
-</li>
+    <li><span style="color:blue">2024-06-11</span> Paper published in <a target="_blank" href="https://www.computer.org/csdl/journal/tb/">IEEE/ACM Transactions on Computational Biology and Bioinformatics</a> (DDI prediction with HIN meta-paths).</li>
+    <li><span style="color:blue">2024-05-26</span> Began mentoring for <a target="_blank" href="https://sites.google.com/view/reu-gda-gsu/home">NSF REU on Graph Data Analytics</a> at GSU.</li>
+    <li><span style="color:blue">2024-05-05</span> Paper accepted at <a target="_blank" href="https://icccn.org/">ICCCN 2024</a> (Similarity-based Graph Compression for Efficient Embedding).</li>
+    <li><span style="color:blue">2023-11-13</span> Successfully defended Ph.D. dissertation at Georgia State University.</li>
+    <li><span style="color:blue">2023-08-05</span> Paper accepted at <a target="_blank" href="https://cikm2023.org/">CIKM 2023</a> (Seq-HyGAN: Sequence Classification via Hypergraph Attention).</li>
+    <li><span style="color:blue">2023-07-24</span> Paper accepted at <a target="_blank" href="https://acm-bcb.org">ACM BCB 2023</a> (DDI via Heterogeneous Graph Attention).</li>
+    <li><span style="color:blue">2023-06-21</span> Selected for the <a target="_blank" href="https://kdd.org/kdd2023/phd-consortium/">KDD 2023 PhD Consortium</a>.</li>
+    <li><span style="color:blue">2023-05-01</span> Paper accepted at <a target="_blank" href="https://pakdd2023.org/">PAKDD 2023</a> (MPool: Motif-based Graph Pooling).</li>
+    <li><span style="color:blue">2022-11-09</span> Paper accepted at <a target="_blank" href="https://icde2023.ics.uci.edu/">ICDE 2023 Workshops</a> (Enhanced De-densification for Graph Compressing & Embedding).</li>
+    <li><span style="color:blue">2022-09-23</span> Received <a target="_blank" href="https://cas.okstate.edu/department_of_computer_science/students/student_awards/awardees.html">Outstanding Graduate Student Research Award</a> at Oklahoma State University.</li>
+    <li><span style="color:blue">2022-07-11</span> Paper accepted at <a target="_blank" href="https://biokdd.org/biokdd22/">BioKDD 2022 Workshop</a>.</li>
+    <li><span style="color:blue">2022-06-20</span> Attended <a target="_blank" href="https://www.logml.ai">LOGML Summer School 2022</a>.</li>
+    <li><span style="color:blue">2022-06-17</span> Gave a talk at REU Professional Development Workshop on Graph Representation Learning in Biology & Medicine.</li>
+    <li><span style="color:blue">2021-11-14</span> Paper accepted at <a target="_blank" href="https://bigdataieee.org/">IEEE Big Data 2021</a> (Drug Abuse Detection on Twitter).</li>
+    <li><span style="color:blue">2021-07-15</span> Paper accepted at <a target="_blank" href="https://cibcb2021.ieee-cis.org/">IEEE CIBCB 2021</a> (DDI via Meta-path Similarities).</li>
+    <li><span style="color:blue">2021-06-01</span> Journal article published in <a target="_blank" href="https://www.frontiersin.org/journals/big-data">Frontiers in Big Data</a> (Proximity-based Network Compression & Embedding).</li>
+    <li><span style="color:blue">2019-08-19</span> Started Ph.D. in Computer Science at Oklahoma State University.</li>
+  </ul>
 
-<li>
-<span style="color:blue">2022-06-20</span>
-Got Accepted into <a target="_blank" href="https://www.logml.ai">LOGML Summer School 2022</a>. Looking forward to meet my idols, academia and industry professionals, and most importantly, work with <a target="_blank" href="https://www.kexinhuang.com">Kexin Huang</a>, a prodigy and a big inspiration for me.
-</li>
+  <div class="show-toggle" onclick="toggleNews()" style="cursor:pointer;color:#0066cc;margin-top:10px;">Show More</div>
+</section>
 
-<li>
-<span style="color:blue">2022-06-17</span>
-Gave a talk at REU Professional Development Workshop About Graph Representation Learning in Biology and Medicine</a>.
-</li>
+<style>
+  /* Show only the first 5 items by default; reveal all when expanded */
+  #news-list li { display: none; }
+  #news-list li:nth-child(-n+5) { display: list-item; }
+  #news-list.expanded li { display: list-item; }
+</style>
 
-<li>
-<span style="color:blue">2022-06-01</span>
-Co-ordinator of <a target="_blank" href="http://cs.okstate.edu/reu/about.html">REU Site: Big Data Analytics at Oklahoma State University</a>.
-</li>
+<script>
+  function toggleNews() {
+    const newsList = document.getElementById("news-list");
+    const toggleBtn = document.querySelector(".show-toggle");
 
-<li>
-<span style="color:blue">2021-11-14</span>
-One Paper Accepted at <a target="_blank" href="https://bigdatareu.umbc.edu/reu-symposium/">IEEE International Conference on Big Data</a>.
-</li>
-
-<li>
-<span style="color:blue">2021-08-30</span>
-Passed Comprehensive Exam of PhD.
-</li>
-
-<li>
-<span style="color:blue">2021-07-15</span>
-One Paper Accepted at <a target="_blank" href="https://federation.edu.au/cibcb2021">IEEE CIBCB 2021</a>.
-</li>
-
-<li>
-<span style="color:blue">2021-07-08</span>
-Passed Diagnostic Exam of PhD.
-</li>
-
-<li>
-<span style="color:blue">2021-06-01</span>
-Co-ordinator of <a target="_blank" href="http://cs.okstate.edu/reu/about.html">REU Site: Big Data Analytics at Oklahoma State University</a>. Also, co-advised a student during the program.
-</li>
-
-<li>
-<span style="color:blue">2020-12-07</span>
-One journal paper accepted at <a target="_blank" href="https://www.frontiersin.org/journals/big-data">Frontiers in Big Data</a>.
-</li>
-
-<li>
-<span style="color:blue">2019-08-19</span>
-Started as CS PhD student at Oklahoma State University. Go Pokes!</a>
-</li>
-
-</ul>
-
-</p>
+    if (newsList.classList.contains("expanded")) {
+      newsList.classList.remove("expanded");
+      toggleBtn.textContent = "Show More";
+    } else {
+      newsList.classList.add("expanded");
+      toggleBtn.textContent = "Show Less";
+    }
+  }
+</script>
