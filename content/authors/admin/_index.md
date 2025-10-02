@@ -68,7 +68,7 @@ where I can contribute my expertise in building scalable machine learning soluti
 applications.
 </p>
 
-{{< rawhtml >}}
+
 <h3 id="news">Recent News</h3>
 
 <section id="news" class="section">
@@ -121,4 +121,4 @@ applications.
     }
   }
 </script>
-{{< /rawhtml >}}
+
