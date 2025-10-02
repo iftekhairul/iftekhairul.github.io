@@ -25,6 +25,19 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
 
+# allow Wowchemy (v5) to read its WC_* env vars in templates
+security:
+  enableInlineShortcodes: false
+  exec:
+    allow: ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$', '^tailwindcss$']
+    osEnv: ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE|PROGRAMDATA)$']
+  funcs:
+    getenv: ['^HUGO_', '^CI$', '^WC_']   # <-- this line unblocks WC_POST_CSS
+  http:
+    methods: ['(?i)GET|POST']
+    urls: ['.*']
+
+
 ############################
 ## ADVANCED
 ############################
