@@ -23,6 +23,19 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Assistant Professor of Computer Science
+    company: Texas A&M University–Texarkana
+    company_url: 'https://www.tamut.edu'
+    location: Texarkana, TX, USA
+    date_start: '2026-08-01'
+    date_end: ''
+    description: |
+      - Teaching courses in computer science and data analytics in the College of Engineering and Computing.
+      - Serving as **Program Coordinator**, overseeing curriculum, course scheduling, and student advising for the program.
+      - Building a research program in **graph representation learning** and **applied machine learning**, with applications to biological, biomedical, and social network data.
+      - Mentoring graduate students and supervising independent research projects.
+      - Contributing to curriculum development and program growth across the college.
+
   - title: Graduate Research Assistant
     company: Georgia State University
     company_url: 'https://www.gsu.edu'
