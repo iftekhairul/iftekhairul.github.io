@@ -1,11 +1,11 @@
 ---
 title: Muhammad Ifte Khairul Islam
-role: Lecturer
+role: Assistant Professor
 avatar_filename: avatar.jpg
-bio:  I recently completed my Ph.D. in Computer Science at Georgia State University, 
-  where my dissertation focused on Graph Neural Networks, graph mining, and their 
-  applications in computational biomedicine and bioinformatics. I am actively pursuing 
-  opportunities in AI/ML engineering, data science, and applied research roles.
+bio: I am an Assistant Professor of Computer Science in the College of Engineering
+  and Computing at Texas A&M University–Texarkana. My research focuses on graph
+  neural networks, graph mining, and representation learning, with applications to
+  biological, biomedical, and social network data.
 interests:
   - Machine Learning
   - Deep Learning
@@ -27,8 +27,8 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/ifte-islam-909/
 organizations:
-  - name: Georgia State University
-    url: https://www.gsu.edu
+  - name: Texas A&M University–Texarkana
+    url: https://www.tamut.edu
 education:
   courses:
     - course: PhD in Computer Science
@@ -42,30 +42,32 @@ superuser: true
 highlight_name: true
 ---
 <p>
-I recently earned my Ph.D. in Computer Science from <a target="_blank" href="https://csds.gsu.edu/">Georgia State University</a>, 
-where I was advised by <a target="_blank" href="https://cas.gsu.edu/profile/esra-akbas/">Prof. Esra Akbas</a>. 
-My dissertation, <i>"Mining Local and Global Structure on Static and Dynamic Graphs"</i>, proposed novel 
-graph representation learning methods for node and graph classification.
+I am an Assistant Professor of Computer Science in the College of Engineering and Computing at
+<a target="_blank" href="https://www.tamut.edu">Texas A&amp;M University–Texarkana</a>.
+My research focuses on graph neural networks, graph mining, and representation learning, with
+applications to biological, biomedical, and social network data.
 </p>
 
 <p>
-My research spans <b>Graph Neural Networks</b>, <b>Graph Mining</b>, and <b>AI in Biomedicine</b>, with multiple 
-first-author publications in leading venues such as IEEE Big Data, ECML-PKDD, CIKM, PAKDD, and 
-the IEEE/ACM Transactions on Computational Biology and Bioinformatics. 
-I also have hands-on software engineering experience, having worked with Java, Spring, MySQL, 
-and modern AI/ML frameworks such as PyTorch, TensorFlow, and Scikit-learn.
+I earned my Ph.D. in Computer Science from
+<a target="_blank" href="https://csds.gsu.edu/">Georgia State University</a>, where I was advised by
+<a target="_blank" href="https://cas.gsu.edu/profile/esra-akbas/">Dr. Esra Akbas</a>. My dissertation,
+<i>Mining Local and Global Structure on Static and Dynamic Graphs</i>, developed graph representation
+learning methods for analyzing complex static and dynamic networks.
 </p>
 
 <p>
-Beyond research, I have a passion for teaching. I served as Course Instructor for <i>Data Structures</i> 
-(100+ students), supervised teaching assistants, and mentored students in graph mining and machine 
-learning projects, several of whom went on to publish their work.
+My research has explored graph neural networks, graph contrastive learning, graph pooling and
+compression, dynamic graphs, and learning from heterogeneous biological networks. My work has appeared
+in venues including IEEE Big Data, ECML PKDD, PAKDD, CIKM, ACM BCB, and the IEEE/ACM Transactions on
+Computational Biology and Bioinformatics.
 </p>
 
 <p>
-I am now actively looking for roles in <b>AI/ML Engineering</b>, <b>Applied Machine Learning</b>, and <b>Data Science</b>, 
-where I can contribute my expertise in building scalable machine learning solutions for real-world 
-applications.
+At Texas A&amp;M University–Texarkana, I am building a research program in graph learning and applied
+machine learning while teaching and mentoring students in computer science, data analytics, and related
+areas. I am particularly interested in collaborations that connect advances in machine learning with
+challenging problems involving complex network data.
 </p>
 
 
@@ -73,6 +75,7 @@ applications.
 
 <section id="news" class="section">
   <ul id="news-list">
+    <li><span style="color:blue">2026-08-01</span> Joined <a target="_blank" href="https://www.tamut.edu">Texas A&amp;M University–Texarkana</a> as Assistant Professor of Computer Science in the College of Engineering and Computing.</li>
     <li><span style="color:blue">2025-06-15</span> Completed Ph.D. in Computer Science at Georgia State University. Dissertation: <i>“Mining Local and Global Structure on Static and Dynamic Graphs.”</i></li>
     <li><span style="color:blue">2025-05-15</span> Paper accepted in <a target="_blank" href="https://link.springer.com">Springer ISBM 2024 Proceedings</a> — Context-Sensitive Autocorrect for Bangla Spelling.</li>
     <li><span style="color:blue">2024-12-10</span> Presented <b>DyGCL: Dynamic Graph Contrastive Learning</b> at <a target="_blank" href="https://bigdataieee.org/BigData2024/">IEEE Big Data 2024</a>.</li>
