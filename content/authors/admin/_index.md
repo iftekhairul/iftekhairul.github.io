@@ -8,11 +8,10 @@ bio: I am an Assistant Professor of Computer Science in the College of Engineeri
   biological, biomedical, and social network data.
 interests:
   - Machine Learning
-  - Deep Learning
   - Graph Mining & Representation Learning
   - Graph Neural Networks (GNNs)
   - Computational Biomedicine
-  - Data Science & AI Engineering
+  - Graph Compression 
 social:
   - icon: envelope
     icon_pack: fas
