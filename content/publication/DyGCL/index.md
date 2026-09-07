@@ -1,12 +1,12 @@
 ---
-title: "Dygcl: Dynamic graph contrastive learning for event prediction"
+title: "DyGCL: Dynamic Graph Contrastive Learning for Event Prediction"
 authors:
   - Muhammad Ifte Khairul Islam
   - Khaled Mohammed Saifuddin
   - Tanvir Hossain and Esra Akbas
 doi: 10.1109/BigData62323.2024.10825046
 author_notes: []
-publication_short: "In IEEE BigData 2023"
+publication_short: "In IEEE BigData 2024"
 abstract: ""
 tags: []
 projects: []
