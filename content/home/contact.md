@@ -8,9 +8,7 @@ subtitle: null
 content:
   autolink: true
   form:
-    provider: netlify
-    formspree:
-      ? id
+    provider: ""
     netlify:
       captcha: false
 design:
